@@ -1,0 +1,56 @@
+/* Odabir osnovnog pisma za cijelu stranicu */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2; /* svijetlosiva pozadina */
+    color: #333333; /* tamnosivi tekst */
+    margin: 40px;
+}
+
+/* Naslov stranice */
+h1 {
+    color: #0055aa; /* plava boja naslova */
+    font-weight: 700;
+    font-style: normal;
+    background-color: #dceeff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Paragrafi */
+p {
+    font-weight: 400;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #0055aa;
+}
+
+span {
+color: #0055aa;
+
+}
+
+ul {
+    list-style: square;
+    color: blue;
+}
+
+#lista {
+    color: brown;
+    list-style: none;
+}
+
+#lista li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+h3 {
+    float: right;
+}
+
+.zelena {
+    color: blueviolet;
+    text-decoration: underline;
+}
