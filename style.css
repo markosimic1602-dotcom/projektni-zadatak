@@ -58,3 +58,47 @@ h3 {
 #fname {
     color: green !important;
 }
+
+td {
+  text-align: center;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse; /* spajanje rubova ćelija */
+  margin: 20px auto; /* centriranje tablice */
+}
+
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#naslov {
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #e6f7ff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+
+tbody td:first-child {
+  font-weight: bold;   
+  color: red;          
+}
+
+
+tbody td:last-child {
+  color: green;
+}
